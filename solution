@@ -1,0 +1,16 @@
+import turtle
+mturtle=turtle.Turtle()
+
+def square():
+    mturtle.forward(50)
+    mturtle.left(90)
+    mturtle.forward(50)
+    mturtle.left(90)
+    mturtle.forward(50)
+    mturtle.left(90)
+    mturtle.forward(50)
+    mturtle.left(90)
+
+for i in range(100):
+    square()
+    mturtle.left(10)
